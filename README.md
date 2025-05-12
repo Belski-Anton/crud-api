@@ -1,19 +1,12 @@
 # CRUD API
 
-A simple CRUD API built with Node.js and TypeScript
+A simple CRUD API built with Node.js and TypeScript.
 
-Setup and Running
-Clone this repository:
-$ git clone https://github.com/Belski-Anton/crud-api
+## 🚀 Setup and Running
 
-Go to branch develop:
-$ git checkout dev
+### 1. Clone the repository
 
-Running the app
-$ npm run start:dev
+```bash
+git clone https://github.com/Belski-Anton/crud-api
+cd crud-api
 
-Build
-$ npm run start:prod
-
-Running tests
-$ npm run test
