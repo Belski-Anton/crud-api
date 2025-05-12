@@ -21,3 +21,9 @@ git clone --branch dev https://github.com/Belski-Anton/crud-api
 ```bash
  npm run start:prod
 ```
+
+### 4. Running tests
+
+```bash
+ npm run test
+```
