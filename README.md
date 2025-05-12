@@ -8,6 +8,6 @@ A simple CRUD API built with Node.js and TypeScript.
 
 ```bash
 git clone https://github.com/Belski-Anton/crud-api
-cd crud-api
 
+```
 
