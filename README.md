@@ -10,3 +10,8 @@ A simple CRUD API built with Node.js and TypeScript.
 git clone --branch dev https://github.com/Belski-Anton/crud-api
 ```
 
+### 2. Running the app
+
+```bash
+ npm run start:dev
+```
