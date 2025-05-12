@@ -13,7 +13,9 @@ git clone --branch dev https://github.com/Belski-Anton/crud-api
 ## 2. Environment Variables
 
 Create a `.env` file in the root of the project and set:
-
+```bash
+PORT=3000
+```
 ### 3. Running the app
 
 ```bash
