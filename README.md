@@ -10,6 +10,10 @@ A simple CRUD API built with Node.js and TypeScript.
 git clone --branch dev https://github.com/Belski-Anton/crud-api
 ```
 
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root of the project and set:
+
 ### 2. Running the app
 
 ```bash
