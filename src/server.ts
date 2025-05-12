@@ -1,22 +1,13 @@
-console.log('Server is alive!');
 import dotenv from 'dotenv';
 import http from 'http';
-import { userRoutes } from './routes/userRoutes';
+import { requestListener } from './app';
 
 dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
-const server = http.createServer((req, res) => {
-  const url = req.url || '';
-  if (url.startsWith('/api/users')) {
-    return userRoutes(req, res);
-  }
-
-  res.writeHead(404, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({ message: 'Endpoint not found' }));
-});
+const server = http.createServer(requestListener);
 
 server.listen(PORT, () => {
-  console.log(` Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
