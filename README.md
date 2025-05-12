@@ -12,5 +12,5 @@ cd crud-api
 
 ###  2. Checkout to the development branch
 
+```bash
 git checkout dev
-
